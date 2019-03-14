@@ -4,7 +4,6 @@ def starting_point():
     person2 = input("Enter the second Person's name: ")
     name2 = person2.replace(' ', '')
     word_count = count_letters(name1.lower(), name2.lower())
-    # ---TODO: non-character type should print out a message---
     if name1.isalpha() and name2.isalpha():
         flame_character = finding_flame(word_count)
         flame_definer(person1, person2, flame_character)
